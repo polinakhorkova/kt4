@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class MyPage extends StatelessWidget {
   MyPage({super.key});
   String username = "";
@@ -27,31 +26,23 @@ class MyPage extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 204, 224, 214), //цвет фона
       child: Center(
         child: SingleChildScrollView(
-         
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-          
             children: [
-
               Card(
-                
-            elevation: 15,
-            
+                elevation: 15,
                 child: Container(
-                
                   width: 345,
                   height: 460,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(5),
                     color: Colors.white,
-                    
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Container(
-                        
                         padding: const EdgeInsets.all(25.0),
                         child: Column(
                           children: [
@@ -78,7 +69,7 @@ class MyPage extends StatelessWidget {
                                     color: Color.fromRGBO(97, 154, 219, 1),
                                     width: 1),
                               ),
-                              
+
                               child: Center(
                                 child: const Text(
                                   'Личный кабинет',
@@ -109,7 +100,6 @@ class MyPage extends StatelessWidget {
                                 ],
                               ),
                             ),
-                            
                             Container(
                               width: 400,
                               height: 45,
@@ -160,7 +150,8 @@ class MyPage extends StatelessWidget {
                                   height: 40,
                                   child: ElevatedButton(
                                       style: ElevatedButton.styleFrom(
-                                        backgroundColor: Color.fromARGB(255, 153, 226, 156),
+                                        backgroundColor:
+                                            Color.fromARGB(255, 153, 226, 156),
                                         shape: RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(20)),
