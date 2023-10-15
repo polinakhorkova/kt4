@@ -27,25 +27,31 @@ class MyPage extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 204, 224, 214), //цвет фона
       child: Center(
         child: SingleChildScrollView(
+         
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
+          
             children: [
+
               Card(
-                elevation: 15,
+                
+            elevation: 15,
+            
                 child: Container(
-                  // padding: const EdgeInsets.all(1),
-                  width: 350,
-                  height: 482.233,
+                
+                  width: 345,
+                  height: 460,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(5),
                     color: Colors.white,
+                    
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Container(
-                        // width: 250,
+                        
                         padding: const EdgeInsets.all(25.0),
                         child: Column(
                           children: [
@@ -54,7 +60,7 @@ class MyPage extends StatelessWidget {
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color.fromRGBO(106, 111, 140, 1),
-                                  fontSize: 30,
+                                  fontSize: 25,
                                   fontWeight: FontWeight.w900),
                             ),
                             SizedBox(
@@ -72,6 +78,7 @@ class MyPage extends StatelessWidget {
                                     color: Color.fromRGBO(97, 154, 219, 1),
                                     width: 1),
                               ),
+                              
                               child: Center(
                                 child: const Text(
                                   'Личный кабинет',
@@ -83,6 +90,9 @@ class MyPage extends StatelessWidget {
                                   ),
                                 ),
                               ),
+                            ),
+                            SizedBox(
+                              height: 10,
                             ),
                             Container(
                               padding: EdgeInsets.all(16),
@@ -99,6 +109,7 @@ class MyPage extends StatelessWidget {
                                 ],
                               ),
                             ),
+                            
                             Container(
                               width: 400,
                               height: 45,
@@ -145,12 +156,11 @@ class MyPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 SizedBox(
-                                  width: 100,
-                                  height: 35,
+                                  width: 115,
+                                  height: 40,
                                   child: ElevatedButton(
                                       style: ElevatedButton.styleFrom(
-                                        backgroundColor: const Color.fromARGB(
-                                            255, 117, 196, 120),
+                                        backgroundColor: Color.fromARGB(255, 153, 226, 156),
                                         shape: RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(20)),
@@ -159,8 +169,8 @@ class MyPage extends StatelessWidget {
                                       child: const Text("ВОЙТИ")),
                                 ),
                                 SizedBox(
-                                  width: 100,
-                                  height: 35,
+                                  width: 115,
+                                  height: 40,
                                   child: ElevatedButton(
                                       style: ElevatedButton.styleFrom(
                                         side: BorderSide(
